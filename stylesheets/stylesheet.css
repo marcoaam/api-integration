@@ -1,3 +1,57 @@
 body {
 	background-color: skyblue;
 }
+
+#profile {
+	background-color: white;
+	padding: 5px;
+	border-radius: 4px;
+	width: 400px;
+	margin: 10px auto;
+	display: none;
+}
+
+#user, #followers, #repos {
+	margin: 5px;
+	font-family: Helvetica;
+	text-align: left;
+	display: inline-block;
+	width: 200px;
+	color: orange;
+	padding: 2px;
+}
+
+img {
+	display: inline-block;
+	border-radius: 5px;
+	margin: 10px;
+	width: 100px;
+	float: left;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+form {
+	padding: 10px;
+	width: 400px;
+	margin: 10px auto;
+}
+
+input {
+	height: 20px;
+}
+
+.button {
+	background-color: orange;
+	border-radius: 3px;
+	color: white;
+}
+
+h1 {
+	color: white;
+	font-family: Helvetica;
+}
